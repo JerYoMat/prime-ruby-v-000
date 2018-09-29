@@ -7,7 +7,7 @@ def prime?(number)
     divisible_by << counter if number.abs % counter == 0 
     counter += 1 
   end 
-  if divisble_by.length == 2 
+  if divisible_by.length == 2 
     true 
   else 
     false 
