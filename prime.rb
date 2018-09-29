@@ -1,4 +1,15 @@
 # Add  code here!
 def prime?(number)
-
+  counter = 0 
+  divisible_by = []
+  while counter < number.abs 
+    divisible_by << counter if number.abs % counter == 0 
+    counter += 1
+  end 
+  if divisible_by.length > 2 
+    true 
+  else 
+    false 
+  end 
+  
 end 
