@@ -6,7 +6,6 @@ def prime?(number)
     divisible_by << counter if number.abs % counter == 0 
     counter += 1
   end 
- binding.pry 
   if divisible_by.length > 2 
     true 
   else 
@@ -15,4 +14,3 @@ def prime?(number)
   
 end 
 
-prime?(22)
