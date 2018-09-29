@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(number)
+def prime?(number)
   counter = 1
   divisible_by = []
   while counter < number
