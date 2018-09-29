@@ -9,7 +9,7 @@ def prime?(number)
     end 
   elsif number < 0  
     while counter > number 
-      divisble_by << number / counter if number % counter == 0 
+      divisible_by << number / counter if number % counter == 0 
       counter -= 1 
     end 
   end 
