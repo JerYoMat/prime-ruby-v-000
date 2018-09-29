@@ -7,9 +7,9 @@ def prime?(number)
     counter += 1 
   end 
   if divisible_by.length > 2 
-    true 
-  else 
     false 
+  else 
+    true 
   end 
 
 end 
