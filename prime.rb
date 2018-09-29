@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  counter = 0 
+  counter = 1 
   divisible_by = []
   while counter < number.abs 
     divisible_by << counter if number.abs % counter == 0 
